@@ -1,0 +1,47 @@
+.navbar {
+    background-color: rgb(30, 30, 30);
+    height: 4rem;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem; 
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.desktopMenuListItem:hover  {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.desktopMenuBtn {
+    background-color: #3498db; /* Change the background color to a nice blue color */
+    color: white; /* Set text color to white for better contrast */
+    border: none;
+    padding: 0.5rem 1rem; /* Adjust padding to have a bit of spacing around the text */
+    border-radius: 1rem; /* Slightly reduce border radius for a more subtle effect */
+    cursor: pointer;
+    font-size: 1rem; /* Set font size for consistency */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.desktopMenuBtn:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+}
