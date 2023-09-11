@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="desktopMenu">
             <Link className='desktopMenuListItem'>Home</Link>
             <Link className='desktopMenuListItem'>Skills</Link>
-            <Link className='desktopMenuListItem'>Project</Link>
+            <Link className='desktopMenuListItem'>Projects</Link>
             <Link className='desktopMenuListItem'>Contacts</Link>
         </div>
         <button className='desktopMenuBtn'>

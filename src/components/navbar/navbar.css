@@ -1,6 +1,8 @@
 .navbar {
+    border: solid yellow 1px;
     background-color: rgb(30, 30, 30);
     height: 4rem;
+    /* min-width: 740px; */
     width: 100%;
     padding: 1rem 2rem;
     display: flex;
@@ -16,6 +18,12 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem; 
+}
+
+.desktopMenu {
+    display: flex;
+    
+    border: 1px solid pink;
 }
 
 .desktopMenuListItem {
@@ -44,4 +52,13 @@
 
 .desktopMenuBtn:hover {
     background-color: #2980b9; /* Darker blue color on hover */
+}
+
+
+@media screen and (max-width: 740px) {
+
+    .navbar{
+        display:none;
+    }
+    
 }
