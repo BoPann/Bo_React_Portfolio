@@ -1,0 +1,7 @@
+
+
+.footerHeading > div, .footerHeading > div > a{
+    text-align: center;
+    color: grey;
+    font-size: 0.5rem;
+}

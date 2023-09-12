@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="footerHeading">
         <div className="footerDescription"></div>
-        <img src="" alt="" className="footerImg" />
+        <div> Navbar icons made by <a href="https://www.flaticon.com/authors/sonnycandra" title="sonnycandra"> sonnycandra </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
     </section>
   )
 }

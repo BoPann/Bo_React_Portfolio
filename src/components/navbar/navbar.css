@@ -15,10 +15,11 @@
 
 .logo {
     /* border: 1px solid yellow; */
-    object-fit: cover;
-    height: 3.5rem;
-    width: 4rem; 
+    object-fit:scale-down;
+    width: 2.5rem; 
 }
+
+    
 
 .desktopMenu {
     display: flex;
@@ -54,11 +55,68 @@
     background-color: #2980b9; /* Darker blue color on hover */
 }
 
+.mobMenu {
+    display: none;
+    cursor: pointer;
+    height:80%;
+    object-fit: cover;
+}
+
+/* .burgerMenu {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-align: right;
+    background: rgb(40, 40, 40);
+    top: 4rem;
+    right: 2rem; 
+    height: fit-content;
+    border-radius: 1rem;
+} */
+
+.burgerMenu {
+    cursor: pointer;
+    position: absolute;
+    /* border: solid green 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgb(40, 40, 40);
+    top: 4rem;
+    right: 0rem; 
+    border-radius: 1rem;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.burgerItem {
+    padding: 0.5rem 3rem;
+    margin: 0.24rem;
+}
+
+
 
 @media screen and (max-width: 740px) {
 
-    .navbar{
+    .navbar {
+        height:4rem;
+    }
+
+    .desktopMenu{
         display:none;
+    }
+
+    .desktopMenuBtn{
+        display: none;
+    }
+
+    .mobMenu {
+        display: flex;
     }
     
 }
