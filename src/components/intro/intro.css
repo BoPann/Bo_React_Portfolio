@@ -25,6 +25,7 @@
 
 .introContent > p {
     /* border: solid green 1px; */
+    font-size: 0.75rem;
     max-width: 75%;
 }
 
@@ -67,6 +68,11 @@
 
 
 @media screen and (max-width: 740px) {
+
+    .introContent{
+        /* border: solid 1px yellow; */
+        padding: 2%;
+    }
 
     .introText{
         font-size: 1rem;

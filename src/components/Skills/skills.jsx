@@ -9,6 +9,8 @@ import reactLogo from "../../assets/reactLogo.png"
 import JAVA from "../../assets/javaLogo.png"
 import SQL from "../../assets/sqlLogo.png"
 import mongo from "../../assets/mongoLogo.png"
+import gitLogo from "../../assets/gitLogo.png"
+import pythonLogo from "../../assets/pythonLogo.png"
 
 const Skills = () => {
   return (
@@ -45,6 +47,12 @@ const Skills = () => {
             </div>
             <div className="skillContainer">
                 <img src={mongo} alt="" className="skill9" />
+            </div>
+            <div className="skillContainer">
+                <img src={gitLogo} alt="" className="skill9" />
+            </div>
+            <div className="skillContainer">
+                <img src={pythonLogo} alt="" className="skill9" />
             </div>
             
         </div>

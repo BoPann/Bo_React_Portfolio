@@ -1,25 +1,28 @@
 import React from 'react';
 import './projects.css';
+import Project1 from '../../assets/gearLogo.png';
+import Project2 from '../../assets/todolistLogo.png'
+
 
 const Projects = () => {
   return (
     <section id="projects">
+      <div className="projectsHeading"> Projects</div>
+      <div className="projectsIntro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dicta accusamus iste magni totam officiis nobis, odio nam. Suscipit commodi incidunt deserunt fugiat libero unde aut odio quae eveniet adipisci?</div>
       <div className="projectsContainers">
         <div className="projectsContainer">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus repellat voluptas dolorem veniam dicta, quas debitis reprehenderit voluptatem dolorum itaque quia error neque et mollitia adipisci sit officia pariatur quis.</p>
+            <img src={Project1} alt="project1" className="project" />
+            <span className="description">Learning Management System</span>
         </div>
         <div className="projectsContainer">
-            <p>testing paragrapth</p>
+          <img src={Project2} alt="project1" className="project" />
+          <span className="description">To Do List</span>
         </div>
         <div className="projectsContainer">
-            <p>testing paragrapth</p>
+          <img src={Project2} alt="project1" className="project" />
+          <span className="description">Lorem ipsum dolor sit amet lo </span>
         </div>
-        <div className="projectsContainer">
-            <p>testing paragrapth</p>
-        </div>
-        <div className="projectsContainer">
-            <p>testing paragrapth</p>
-        </div>
+
       </div>
     </section>
   )

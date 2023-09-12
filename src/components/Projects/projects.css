@@ -1,23 +1,67 @@
 
 #projects {
     /* border: yellow solid 1px; */
+    margin: 10% auto;
     width: 100vw; 
-    height: calc(5vh - 3rem);
+}
+
+.projectsHeading {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.projectsIntro {
+    
+    font-size: 0.75rem;
+    max-width: 80%;
+    margin: 5% auto;
+    text-align: center;
 }
 
 .projectsContainers {
+    /* border: 1px solid pink; */
+    padding-bottom: 3%;
     max-width: 65rem;
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     margin: auto;
 
 }
 
+.projectsContainer > img {
+    /* border: solid green 1px; */
+    height: 10%;
+}
+
 .projectsContainer{
-    border: solid green 2px;
+    display: flex;
+    margin-top:3%;
+    background: rgb(50, 50, 50);
+    /* border-radius: 5%; */
     height: 50%; 
     width: 50%;
+}
+
+.project {
+    /* border: solid yellow 1px; */
+    width: 20%;
+    object-fit: cover;
+}
+
+.description {
+    width: 100%;
+    /* border: 1px solid yellow; */
+    padding: 7% 0 0 7%;
+    text-align: left;
+}
+
+@media screen and (max-width:740px) {
+    .projectsContainer > img {
+        /* border: solid green 1px; */
+    }
+    .description {
+        font-size: 0.5rem;
+    }
 }
