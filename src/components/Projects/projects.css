@@ -39,11 +39,16 @@
     display: flex;
     margin-top:3%;
     background: rgb(50, 50, 50);
-    /* border-radius: 5%; */
+    /* border: solid yellow 1px; */
     height: 50%; 
     width: 50%;
 }
 
+.projectsContainer:hover{
+    cursor:pointer;
+    border: solid beige 2px;
+
+}
 .project {
     /* border: solid yellow 1px; */
     width: 20%;

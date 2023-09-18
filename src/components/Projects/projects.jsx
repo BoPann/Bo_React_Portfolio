@@ -20,7 +20,7 @@ const Projects = () => {
         </div>
         <div className="projectsContainer">
           <img src={Project2} alt="project1" className="project" />
-          <span className="description">Lorem ipsum dolor sit amet lo </span>
+          <span className="description">Trending Music PlayList Creator </span>
         </div>
 
       </div>
