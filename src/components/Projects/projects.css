@@ -40,15 +40,18 @@
     margin-top:3%;
     background: rgb(50, 50, 50);
     /* border: solid yellow 1px; */
-    height: 50%; 
-    width: 50%;
+    height: 40%; 
+    width: 40%;
 }
 
 .projectsContainer:hover{
+    transition: 0.25s ease;
+    height: 60%;
+    width:60%;
     cursor:pointer;
-    border: solid beige 2px;
-
+    /* border: solid beige 2px; */
 }
+
 .project {
     /* border: solid yellow 1px; */
     width: 20%;
@@ -58,15 +61,69 @@
 .description {
     width: 100%;
     /* border: 1px solid yellow; */
-    padding: 7% 0 0 7%;
+    padding: 7%;
     text-align: left;
 }
 
+.description:hover{
+    transition: 0.25s ease;
+    font-size: 1.15rem;
+}
+
+.videoWindow {
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: yellow solid 1px;
+    width: 70vw; 
+    height: 75vh; 
+    z-index: 999; 
+}
+
+iframe{
+    /* border: green solid 1px; */
+    width:100%;
+    height: 100%;
+}
+
+.videoBtn {
+    padding: 1%;
+    color: white;
+    background: #3498db;
+    border:none;
+    border-radius: 1rem;
+    /* border: green 1px solid */
+}
+
+.videoBtn:hover {
+    cursor: pointer;
+    background: #70c2f8;
+}
+
+.overlay{
+    z-index: 998;
+    position: absolute;
+    width: 100vw;
+    height: 600vh;
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+
+
 @media screen and (max-width:740px) {
-    .projectsContainer > img {
-        /* border: solid green 1px; */
-    }
+
     .description {
-        font-size: 0.5rem;
+        font-size: 0.55rem;
+    }
+    .description:hover{
+        transition: 0.25s ease;
+        font-size: 0.65rem;
+    }
+
+    .videoWindow{
+        width: 100%;
+        height: 60%;
     }
 }
