@@ -31,13 +31,13 @@ const Skills = () => {
                 <img src={JS} alt="" className="skill3" />
             </div>
             <div className="skillContainer">
-                <img src={CPP} alt="" className="skill4" />
-            </div>
-            <div className="skillContainer">
                 <img src={reactLogo} alt="" className="skill5" />
             </div>
             <div className="skillContainer">
                 <img src={nodeLogo} alt="" className="skill6" />
+            </div>
+            <div className="skillContainer">
+                <img src={CPP} alt="" className="skill4" />
             </div>
             <div className="skillContainer">
                 <img src={JAVA} alt="" className="skill7" />

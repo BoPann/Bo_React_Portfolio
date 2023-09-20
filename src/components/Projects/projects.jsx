@@ -39,16 +39,17 @@ const Projects = () => {
 
 
         <div className="projectsContainer" onClick={() => handleContainerClick(0)}>
-        <img src={Project1} alt="project1" className="project" />
+        <img src={Project1} alt="project1" className="projectLogo" />
         <span className="description">Learning Management System</span>
+        <span className="projectDetails">this is the detail of the project</span>
         </div>
 
         <div className="projectsContainer" onClick={() => handleContainerClick(1)}>
-          <img src={Project2} alt="project2" className="project" />
+          <img src={Project2} alt="project2" className="projectLogo" />
           <span className="description">To Do List</span>
         </div>
         <div className="projectsContainer" onClick={() => handleContainerClick(2)}>
-          <img src={Project2} alt="project3" className="project" />
+          <img src={Project2} alt="project3" className="projectLogo" />
           <span className="description">Trending Music PlayList Creator </span>
         </div>
 
@@ -58,8 +59,8 @@ const Projects = () => {
         
         {index != null && (
         <div>
-        <div className='overlay'></div>
-        <div className="videoWindow">
+        <div className='overlay' onClick={handleCloseVideo}></div>
+        <div className="videoWindow" >
           <iframe src={videos[index]} title="Video" frameBorder="0" allowFullScreen></iframe>
           <button className="videoBtn" onClick={handleCloseVideo}>Close Video</button>
         </div>
