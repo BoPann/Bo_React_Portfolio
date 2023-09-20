@@ -2,21 +2,29 @@ import React from 'react';
 import './projects.css';
 import Project1 from '../../assets/gearLogo.png';
 import Project2 from '../../assets/todolistLogo.png';
-import v1 from '../../assets/bg.mp4'
+import v0 from '../../assets/bg.mp4'
+import v1 from '../../assets/star.mp4'
+import v2 from '../../assets/landing.mp4'
 import {useState} from 'react';
 
 
 const Projects = () => {
 
-  const [showVideo, setShowVideo] = useState(false);
+  const [index, setIndex] = useState(null);
 
-  const handleContainerClick = () => {
-    setShowVideo(true);
+  const handleContainerClick = (index) => {
+    setIndex(index);
   };
 
   const handleCloseVideo = () => {
-    setShowVideo(false);
+    setIndex(null);
   };
+
+  const videos = [
+    'https://www.youtube.com/embed/QUNrBEhvXWQ',
+    'https://www.youtube.com/embed/Puo3VkPkNZ4',
+    'https://www.youtube.com/embed/6i-84wqc_qU' 
+  ];
 
 
   return (
@@ -30,16 +38,16 @@ const Projects = () => {
         </div> */}
 
 
-        <div className="projectsContainer" onClick={handleContainerClick}>
+        <div className="projectsContainer" onClick={() => handleContainerClick(0)}>
         <img src={Project1} alt="project1" className="project" />
         <span className="description">Learning Management System</span>
         </div>
 
-        <div className="projectsContainer" onClick={handleContainerClick}>
+        <div className="projectsContainer" onClick={() => handleContainerClick(1)}>
           <img src={Project2} alt="project2" className="project" />
           <span className="description">To Do List</span>
         </div>
-        <div className="projectsContainer" onClick={handleContainerClick}>
+        <div className="projectsContainer" onClick={() => handleContainerClick(2)}>
           <img src={Project2} alt="project3" className="project" />
           <span className="description">Trending Music PlayList Creator </span>
         </div>
@@ -48,30 +56,16 @@ const Projects = () => {
         
         {/* handle video preview */}
         
-        {showVideo && (
-        <div className='overlay'></div> &&
+        {index != null && (
+        <div>
+        <div className='overlay'></div>
         <div className="videoWindow">
-          <iframe src={v1} title="Video" frameBorder="0" allowFullScreen></iframe>
+          <iframe src={videos[index]} title="Video" frameBorder="0" allowFullScreen></iframe>
           <button className="videoBtn" onClick={handleCloseVideo}>Close Video</button>
+        </div>
         </div>
         )}
 
-        {showVideo && (
-        <div className='overlay'></div> &&
-        <div className="videoWindow">
-          <iframe src={v1} title="Video" frameBorder="0" allowFullScreen></iframe>
-          <button className="videoBtn" onClick={handleCloseVideo}>Close Video</button>
-        </div>
-        )}
-
-        {showVideo && (
-        <div className='overlay'>
-        <div className="videoWindow">
-          <iframe src={v1} title="Video" frameBorder="0" allowFullScreen></iframe>
-          <button className="videoBtn" onClick={handleCloseVideo}>Close Video</button>
-        </div>
-        </div>
-        )}
 
 
 
