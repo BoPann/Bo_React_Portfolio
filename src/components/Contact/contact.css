@@ -1,12 +1,12 @@
 .contactTitle {
     /* border: solid 1px green; */
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .contactDescription {
     /* border: solid 1px green; */
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     text-align: center;
 }
 
@@ -38,4 +38,17 @@
     padding: 0.25rem 1.5rem;
     border-radius: 0.5rem;
     margin: 2%; 
+}
+
+
+@media screen and (max-width:740px) {
+    .contactTitle {
+        font-size: 1.25rem;
+    }
+    
+    .contactDescription {
+        font-size: 0.55rem;
+    }
+    
+
 }

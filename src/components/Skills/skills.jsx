@@ -17,7 +17,9 @@ const Skills = () => {
     <section id="skills">
     <div className="skillHeading">
         <p className="skillIntro">Skills</p>
-        <p className="skillText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat numquam placeat doloribus quisquam, velit ipsam qui dolor maiores laborum dolorem harum ab laboriosam ullam voluptatibus earum eos iste. In.</p>  
+        <p className="skillText">
+        I am passionate about developing technology to drive positive change in people's lives.
+            During my programming journey, I've diligently acquired and am continuously honing a diverse skill set, including:</p>  
     </div>
  
         <div className="skillContainers">

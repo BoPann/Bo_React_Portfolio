@@ -30,7 +30,6 @@
 }
 
 .skillHeading{
-
     max-width: 80vw;
     align-items: center;
     justify-content: center;
@@ -39,11 +38,11 @@
     /* border: solid 1px green; */
 }
 .skillIntro {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .skillText{
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 100;
     margin: 5%;
 }
@@ -64,6 +63,15 @@
     .skillContainers {
         
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skillIntro {
+        font-size: 1.25rem;
+    }
+    .skillText{
+        font-size: 0.55rem;
+        font-weight: 100;
+        margin: 5%;
     }
 }
 

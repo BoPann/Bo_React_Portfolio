@@ -12,40 +12,40 @@
 }
 
 .introContent {
+    /* border: 1px yellow solid; */
     position: absolute;
-    /* border: 2px solid yellow; */
-    /* background-color: blueviolet;  */
     align-items:center;
     text-align: center;
-    bottom: 10%;
+    bottom: 25%;
     font-weight: 800;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
 
+.hello {
+    font-size: 0.75rem;
+}
+
 .introContent > p {
-    /* border: solid green 1px; */
+    width: 75vw;
     font-size: 0.75rem;
     max-width: 75%;
 }
 
 .introText {
-    
     font-size: 2rem;
     max-width: 50vw;
 }
 
 .introName {
-    
     font-size: 2rem;
     color: yellow;
-
 }
 
-.hello {
-    
-    font-size: 0.75rem;
-
+.introTitle {
+    font-size: 1.25rem;
+    color: yellow;
 }
 
 .btn {
@@ -79,11 +79,14 @@
         font-size: 0.75rem;
     }
     .introName {
-        font-size: 1.25rem;;
+        font-size: 1.55rem;;
     }
     .hello {
         margin-top: 2%;
-        font-size: 1.25rem;
+        font-size: 0.55rem;
+    }
+    .introTitle {
+        font-size: 1.15rem;
     }
     .introContent > p {
         font-size: 0.55rem;

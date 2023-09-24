@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/bg.mp4'
-import {Link} from 'react-scroll'
+//import {Link} from 'react-scroll'
 
 const Intro = () => {
   return (
@@ -9,9 +9,10 @@ const Intro = () => {
       <video src={bg} className="bgVideo" autoPlay loop muted/>
         <div className="introContent">
             <span className="hello">Hello! </span>
-            <span className="introText">I am <span className="introName">Fatty <br />A CAT</span></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aspernatur. Eveniet tempore itaque suscipit voluptatem ut, assumenda explicabo voluptatum blanditiis, pariatur ipsa aliquam totam modi aliquid neque consequuntur placeat laborum.</p>
-            <Link><button className="btn">About me</button></Link>
+            <span className="introText">I'm <span className="introName">Bo</span> <br />
+            <span className='introTitle'>A Full Stack Developer</span></span>
+            <p>Welcome to my site!</p>
+            {/* <Link><button className="btn">About me</button></Link> */}
         </div>
 
     </section>
