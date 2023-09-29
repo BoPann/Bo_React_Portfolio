@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     overflow: scroll;
-    overflow-y: visible;
+    overflow-y: hidden;
     overflow-x: hidden;
     scrollbar-width: none;
     margin-top:3%;
@@ -41,7 +41,7 @@
     /* border: solid green 1px; */
     height: 15vh; 
     width: 40%;
-    transition: ease 150ms;
+    transition: ease 100ms;
 }
 
 
@@ -119,8 +119,8 @@ iframe{
 /* Hover Effect */
 /* * */
 .projectsContainer:hover{
-    transition: ease 500ms;
-    height: 60vh;
+    transition: ease 100ms;
+    height: 60%;
     width:50vw;
     display:flex;
     flex-direction: column;
@@ -151,19 +151,21 @@ iframe{
 
 
 .projectsContainer > h1 {
-    border:1px solid green;
+    color: yellow;
+    /* border:1px solid green; */
     margin: 0.5%;
 }
-.projectsContainer > h2 {
-    border:1px solid yellow;
-    margin: 0.5%;
-}
-
-.projectsContainer > h3 {
-    border:1px solid pink;
+.projectsContainer > div > h2 {
+    /* border:1px solid yellow; */
+    font-size: 0.75rem;
     margin: 0.5%;
 }
 
+.highlight {
+    /* border: 1px solid greenyellow; */
+    color: 	#e167ff;
+    font-size: 0.75rem;
+}
 
 
 
@@ -176,6 +178,10 @@ iframe{
 
     .projectsContainer{
         height: 10vh;
+        width:60%;
+    }
+    .projectsContainer:hover{
+        width:80%;
     }
 
     .projectsHeading {
@@ -212,7 +218,14 @@ iframe{
         font-size: 0.65rem;
     }
 
+
+    .projectsContainer:hover > .projectDetails > h2{
+        font-size: 0.45rem;
+    }
     .projectsContainer:hover > .projectDetails{
+        font-size: 0.45rem;
+    }
+    .highlight {
         font-size: 0.45rem;
     }
 }
