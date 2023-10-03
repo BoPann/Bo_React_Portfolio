@@ -21,9 +21,10 @@ const Projects = () => {
   };
 
   const videos = [
-    'https://www.youtube.com/embed/QUNrBEhvXWQ',
-    'https://www.youtube.com/embed/Puo3VkPkNZ4',
-    'https://www.youtube.com/embed/6i-84wqc_qU' 
+    'https://www.youtube.com/embed/Q6klThbfV_0?si=uAoctSnmcWArH_Wu',
+    'https://www.youtube.com/embed/Q6klThbfV_0?si=uAoctSnmcWArH_Wu',
+    'https://www.youtube.com/embed/Q6klThbfV_0?si=uAoctSnmcWArH_Wu',
+    'https://www.youtube.com/embed/Q6klThbfV_0?si=uAoctSnmcWArH_Wu'
   ];
 
 
