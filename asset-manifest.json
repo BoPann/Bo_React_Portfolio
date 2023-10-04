@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bo_React_Portfolio/static/css/main.1e394c67.css",
-    "main.js": "/Bo_React_Portfolio/static/js/main.b2e14092.js",
+    "main.js": "/Bo_React_Portfolio/static/js/main.a03bd341.js",
     "static/media/bg.mp4": "/Bo_React_Portfolio/static/media/bg.91c005c2632c692ebeaf.mp4",
     "static/media/reactLogo.png": "/Bo_React_Portfolio/static/media/reactLogo.81ed438b18e24116794d.png",
     "static/media/pythonLogo.png": "/Bo_React_Portfolio/static/media/pythonLogo.f9dc70303b81180b774d.png",
@@ -20,10 +20,10 @@
     "static/media/spotifyLogo.png": "/Bo_React_Portfolio/static/media/spotifyLogo.3204364a15a41e4baa7a.png",
     "index.html": "/Bo_React_Portfolio/index.html",
     "main.1e394c67.css.map": "/Bo_React_Portfolio/static/css/main.1e394c67.css.map",
-    "main.b2e14092.js.map": "/Bo_React_Portfolio/static/js/main.b2e14092.js.map"
+    "main.a03bd341.js.map": "/Bo_React_Portfolio/static/js/main.a03bd341.js.map"
   },
   "entrypoints": [
     "static/css/main.1e394c67.css",
-    "static/js/main.b2e14092.js"
+    "static/js/main.a03bd341.js"
   ]
 }
